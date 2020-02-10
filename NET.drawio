@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-10T08:32:37.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="KERCSsHkUX6gGPG--egS" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-10T09:02:50.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="8PEoz8C5muXdQrrxpXp9" version="12.6.6" type="github">
   <diagram id="6Yw3_8N0L_zn6UBm3buK" name="Page-1">
     <mxGraphModel dx="1186" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -95,8 +95,14 @@
         <mxCell id="u23m-r9TK8jgyLL94RrK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-15" target="u23m-r9TK8jgyLL94RrK-32">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-15" target="u23m-r9TK8jgyLL94RrK-39">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-15" value="Socket-Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="730" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-39" value="SSL/TLS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="870" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-4" target="u23m-r9TK8jgyLL94RrK-17">
           <mxGeometry relative="1" as="geometry"/>
@@ -132,22 +138,25 @@
           <mxGeometry x="270" y="820" width="80" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-32" value="Http-2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1060" width="90" height="50" as="geometry"/>
+          <mxGeometry x="465" y="1220" width="90" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-34" value="header使用二进制的frame" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="800" width="60" height="50" as="geometry"/>
+          <mxGeometry x="510" y="950" width="60" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-35" value="多工多个请求多个回应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="395" y="860" width="70" height="40" as="geometry"/>
+          <mxGeometry x="510" y="1010" width="70" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-36" value="数据流取消请求tcp连接不断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="910" width="60" height="50" as="geometry"/>
+          <mxGeometry x="510" y="1070" width="60" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-37" value="server-push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1010" width="95" height="30" as="geometry"/>
+          <mxGeometry x="505" y="1180" width="95" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-38" value="索引号的头部压缩技术" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="970" width="65" height="20" as="geometry"/>
+          <mxGeometry x="512.5" y="1140" width="65" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-41" value="证书加密" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="820" width="60" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
