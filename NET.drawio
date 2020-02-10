@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-10T07:14:43.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="YoJPjnM5iZXV8mmBT10a" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-10T08:32:37.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="KERCSsHkUX6gGPG--egS" version="12.6.6" type="github">
   <diagram id="6Yw3_8N0L_zn6UBm3buK" name="Page-1">
     <mxGraphModel dx="1186" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -73,14 +73,81 @@
         <mxCell id="zdA7el6iR7fUtZH1tA-k-20" value="蜂窝网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="440" width="60" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-3" target="u23m-r9TK8jgyLL94RrK-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-3" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="630" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-15" target="u23m-r9TK8jgyLL94RrK-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="u23m-r9TK8jgyLL94RrK-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="859" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="270" y="859"/>
+              <mxPoint x="270" y="760"/>
+              <mxPoint x="158" y="760"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-15" target="u23m-r9TK8jgyLL94RrK-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-15" value="Socket-Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="730" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u23m-r9TK8jgyLL94RrK-4" target="u23m-r9TK8jgyLL94RrK-17">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="u23m-r9TK8jgyLL94RrK-4" value="UDP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="630" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="u23m-r9TK8jgyLL94RrK-7" value="Socket-Api" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="720" width="330" height="40" as="geometry"/>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-17" value="Socket-Api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="730" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-11" value="Http-0.9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="860" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-20" value="支持get" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="760" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-21" value="Http-1.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="860" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-23" value="支持post&lt;br&gt;缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-24" value="Http-1.1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="860" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-29" value="持久连接最多同时支持6个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="760" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-30" value="支持管道机制,客户端能同时发送多个请求,但是服务端还是按照顺序返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="910" width="65" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-31" value="增加host字段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-32" value="Http-2.0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1060" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-34" value="header使用二进制的frame" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="800" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-35" value="多工多个请求多个回应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="860" width="70" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-36" value="数据流取消请求tcp连接不断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="910" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-37" value="server-push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1010" width="95" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="u23m-r9TK8jgyLL94RrK-38" value="索引号的头部压缩技术" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="970" width="65" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
